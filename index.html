@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+       <link rel="stylesheet" type="text/CSS" href="Indexdompart1.css">
+       <!-- <link rel="stylesheet" type="text/CSS" href="css/font-awesome.css"/>  -->
+       <script src="https://kit.fontawesome.com/2c36dc14c4.js" crossorigin="anonymous"></script>
+
+      <title>Note Manager</title>
+   </head>
+   <body>
+    <div class="wrapper">
+        <header>
+            <h2 id="heading">Note Manager</h2>
+            <form id="search-note">
+                <input type="text" placeholder="search-note---"/>
+            </form>
+        </header>
+        <div class="note-list">
+            <ul id="list">
+                <li>
+                    <p>First note</p>
+                    <p>
+                        <i class="fa fa-pencil-square-o"></i><i class="fa fa-times"></i>
+                    </p>
+                
+                    <input class="edit-note" type="text"/>
+                </li>
+                <li>
+                    <p>Second note</p>
+                    <p>
+                        <i class="fa fa-pencil-square-o"></i><i class="fa fa-times"></i>
+                    </p>   
+                        <input class="edit-note" type="text"/>
+                    </li>
+                <li>
+                    <p>Third note</p>
+                    <p>
+                        <i class="fa fa-pencil-square-o"></i><i class="fa fa-times"></i>
+                    </p>   
+                        <input class="edit-note" type="text"/>
+                </li>
+            </ul>
+        </div>
+        <div id="hide-list">
+            <label for="hide">Hide notes</label>
+            <input type="checkbox" id="hide"/>
+        
+        </div>
+
+    <div id="add-notes">
+        <form id="add">
+            <input type="text" placeholder="Add a note.." id="add-input"/>
+            <input type="submit" value="Add" id="add-btn"/>
+        </form>
+    </div>
+</div>
+   </body>
+   <script src="task.js"></script>
+</html>
